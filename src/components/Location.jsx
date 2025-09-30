@@ -36,7 +36,13 @@ const Location = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto py-10 px-4">
+    <div
+      className="max-w-7xl mx-auto py-10 px-4 bg-cover bg-center bg-no-repeat "
+      style={{
+        backgroundImage:
+          "url('/technology-abstract-background-with-particle-lines.jpg')",
+      }}
+    >
       {/* Header Section */}
       <div className="text-center mb-12">
         <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-emerald-600 to-teal-600 rounded-2xl shadow-lg shadow-emerald-500/30 mb-4">
@@ -45,7 +51,7 @@ const Location = () => {
         <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
           Project Location
         </h2>
-        <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+        <p className="text-white text-lg max-w-3xl mx-auto">
           Located in the heart of Dilsukhnagar, Hyderabad with excellent
           connectivity and proximity to all major landmarks.
         </p>
