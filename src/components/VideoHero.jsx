@@ -3,7 +3,7 @@ import React from "react";
 
 const VideoHero = () => {
   return (
-    <div className="h-screen w-full relative">
+    <div className="h-screen w-full relative **overflow-x-hidden**">
       <video
         className="object-cover w-full h-full"
         src="/videos/2836031-uhd_3840_2160_24fps (1).mp4"
